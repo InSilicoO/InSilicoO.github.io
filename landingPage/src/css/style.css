@@ -1,0 +1,91 @@
+/* Colors */
+/* FontsFamily */
+@font-face {
+  font-family: 'OpenSans_Bold';
+  src: url('../fonts/OpenSans-Bold.woff2') format('woff2'), url('../fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans_Reg';
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+/* html code */
+body {
+  font-family: 'OpenSans_Reg', sans-serif;
+}
+body .main {
+  background: url(../img/bg-header.jpg) center center no-repeat;
+  background: cover;
+  /* min-height: 800px; */
+  padding-bottom: 10rem;
+}
+body .logo {
+  padding-top: 6.8rem;
+}
+body .text-header {
+  padding-top: 7.8rem;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: white;
+}
+body .text-header strong {
+  font-family: 'OpenSans_Bold', sans-serif;
+}
+body section h3 {
+  text-align: justify;
+}
+body section p {
+  font-size: 1.5rem;
+  font-family: 'OpenSans_Reg', sans-serif;
+  text-align: justify;
+}
+body section .left,
+body section .right {
+  padding: 10rem 10rem;
+  font-family: 'OpenSans_Bold', sans-serif;
+  font-size: 2.7rem;
+}
+body section .icon-cont-up {
+  position: absolute;
+  padding-top: 8rem;
+}
+body section .icon-cont-down {
+  position: absolute;
+  padding-top: 28rem;
+  margin-left: -8.5rem;
+}
+body section h2 {
+  font-size: 3.5rem;
+  font-family: 'OpenSans_Bold', sans-serif;
+  color: white;
+  padding-top: 28rem;
+}
+body section .main-text {
+  color: white;
+  padding-top: 3.6rem;
+}
+body section.main-cont {
+  background: url(../img/bg-cont.jpg) center center no-repeat;
+  min-height: 135rem;
+}
+body footer {
+  background: #43a06d;
+  max-width: 128rem;
+  margin: 0 auto;
+}
+body footer .map {
+  text-align: center;
+  z-index: 111;
+  position: relative;
+}
+body footer p {
+  font-size: 1.5rem;
+  color: white;
+}

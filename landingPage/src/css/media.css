@@ -1,0 +1,201 @@
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  section .text-cont h3,
+  section .text-cont p {
+    padding-left: 20px;
+  }
+  section .icon-cont-down {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 999px) and (min-width: 521px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    min-height: 300px;
+  }
+  main .logo {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 80px;
+    min-width: 200px;
+  }
+  main .text-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  section .container {
+    padding: 0;
+    margin: 0 auto;
+  }
+  section .container .icon-toggle,
+  section .container .icon-toggle-right {
+    display: block;
+    max-width: 50px;
+  }
+  section .container .text-cont {
+    display: block;
+  }
+  section .container .text-cont h3,
+  section .container .text-cont p {
+    font-size: 15px;
+    display: block;
+  }
+  section.main-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+  section.main-cont .icon-cont-down {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 520px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 80px;
+    min-width: 100px;
+  }
+  main .text-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  section .container,
+  section .row {
+    padding: 0;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section .container .left,
+  section .row .left,
+  section .container .right,
+  section .row .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section .container .left .icon-toggle-right,
+  section .row .left .icon-toggle-right,
+  section .container .right .icon-toggle-right,
+  section .row .right .icon-toggle-right {
+    margin-top: -70px;
+  }
+  section .container .left .icon-toggle,
+  section .row .left .icon-toggle,
+  section .container .right .icon-toggle,
+  section .row .right .icon-toggle,
+  section .container .left .icon-toggle-right,
+  section .row .left .icon-toggle-right,
+  section .container .right .icon-toggle-right,
+  section .row .right .icon-toggle-right {
+    margin-left: -20px;
+    max-width: 70%;
+  }
+  section .container .left .text-cont,
+  section .row .left .text-cont,
+  section .container .right .text-cont,
+  section .row .right .text-cont {
+    margin-left: -20px;
+  }
+  section .container .left .text-cont h3,
+  section .row .left .text-cont h3,
+  section .container .right .text-cont h3,
+  section .row .right .text-cont h3 {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  section .container .left .text-cont p,
+  section .row .left .text-cont p,
+  section .container .right .text-cont p,
+  section .row .right .text-cont p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 12px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-width: 100%;
+  }
+  section.main-cont {
+    display: none;
+  }
+  section.main-cont .main-text {
+    font-size: 10px;
+  }
+  footer .copyright p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 770px) {
+  body section.main-cont .row {
+    padding: 0;
+  }
+  body section.main-cont .row h2 {
+    padding-top: 20px;
+  }
+  body section.main-cont .row .icon-cont-up,
+  body section.main-cont .row .icon-cont-down {
+    display: none;
+  }
+  body section.main-cont .row .main-text {
+    font-size: 15px;
+    padding-left: 0;
+  }
+}
