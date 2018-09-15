@@ -1,0 +1,504 @@
+/* Colors */
+/* Fonts */
+@font-face {
+  font-family: 'Montserrat_Light';
+  src: url('../fonts/Montserrat-Light.woff2') format('woff2'), url('../fonts/Montserrat-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway_Semibold';
+  src: url('../fonts/Raleway-SemiBold.woff2') format('woff2'), url('../fonts/Raleway-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+/* Basic setting */
+html {
+  font-size: 10px;
+  max-width: 1920px;
+  text-align: center;
+  margin: 0 auto;
+}
+/* Body site */
+body {
+  color: #fff;
+  /* background: url(../img/bg-header.jpg) top center no-repeat; */
+}
+body .carousel {
+  position: absolute;
+  max-width: 100vw;
+}
+body .carousel img {
+  position: top center;
+}
+body .logo {
+  padding-top: 4rem;
+}
+body .logo:hover {
+  opacity: .8;
+}
+body .menu-header {
+  font-size: 1.4rem;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 6.2rem;
+  font-family: Montserrat_Light, sans-serif;
+}
+body .menu-header a {
+  color: white;
+}
+body .menu-header a:hover {
+  color: #c7b299;
+}
+body .text-header {
+  font-family: Raleway_Semibold, sans-serif;
+  padding-top: 28.5rem;
+}
+body .text-header h3 {
+  font-size: 3.6rem;
+}
+body .text-header h1 {
+  font-size: 5.2rem;
+  padding-top: 1.4rem;
+}
+body .text-header p {
+  font-family: Montserrat_Light, sans-serif;
+  font-size: 1.6rem;
+  padding-top: 1.9rem;
+}
+body .text-header .button-one {
+  font-size: 1.4rem;
+  padding: 2rem 4rem;
+  text-transform: uppercase;
+  color: white;
+  background: #998675;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 5rem;
+  cursor: pointer;
+  margin-bottom: 28rem;
+}
+body section {
+  color: #8c8c8c;
+  text-align: center;
+  padding-top: 8rem;
+  margin-bottom: 8rem;
+}
+body section h2 {
+  font-size: 2.2rem;
+  padding-top: 2rem;
+}
+body section p {
+  font-size: 1.4rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+body section a {
+  color: #8c8c8c;
+  padding-bottom: 180px;
+  border-bottom: #8c8c8c solid 3px;
+}
+body section a:hover {
+  text-decoration: none;
+  color: #c7b299;
+  border-bottom: #c7b299 solid 3px;
+}
+body .cont-bg {
+  background: #fbfaf8;
+}
+body section {
+  margin-bottom: 0;
+}
+body section .cont-two h1 {
+  padding-top: 8rem;
+  font-size: 3rem;
+  font-family: Raleway_Semibold, sans-serif;
+}
+body section .cont-two p {
+  font-size: 1.6rem;
+  padding-bottom: 3rem;
+}
+body .btn-upper {
+  background: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
+  background: linear-gradient(to right, #211b19, #4e3427);
+  max-width: 100%;
+  padding: 4.5rem 0;
+}
+body .btn-upper h2 {
+  font-size: 2.8rem;
+}
+body .btn-upper h2 span {
+  color: #c7b299;
+}
+body .btn-upper p {
+  font-size: 1.8rem;
+  color: #615855;
+  padding-top: 1rem;
+}
+body .btn-upper .button-two {
+  font-family: Raleway_Semibold, sans-serif;
+  font-size: 1.4rem;
+  color: white;
+  padding: 2rem 4rem;
+  background: #998675;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+body section.img-filter h1 {
+  font-size: 3rem;
+  font-family: Raleway_Semibold, sans-serif;
+  color: #555555;
+  padding-top: 7rem;
+}
+body section.img-filter p {
+  font-size: 1.6rem;
+  font-family: Montserrat_Light, sans-serif;
+  padding-top: 2rem;
+}
+body section.img-filter .controls {
+  padding-top: 3rem;
+}
+body section.img-filter .controls button {
+  font-size: 1.4rem;
+  font-family: Montserrat_Light, sans-serif;
+  border: 1px solid #f4f4f4;
+  border-radius: 6px;
+  padding: 0.5rem 2rem;
+  background: #fff;
+  color: #9e9e9e;
+}
+body section.img-filter .controls button:hover {
+  background: #998675;
+  color: white;
+  cursor: pointer;
+}
+body section.img-filter .container-filter {
+  padding-top: 3rem;
+}
+body section.img-filter .container-filter .card {
+  height: 330px;
+  overflow: hidden;
+  border: none;
+  padding: 2rem;
+  min-width: 370px;
+}
+body section.img-filter .container-filter .card img {
+  height: 230px;
+  width: 370px;
+}
+body section.img-filter .container-filter .card .card-block {
+  text-align: justify;
+  padding-left: 2rem;
+  height: 100px;
+  width: 370px;
+  background: #fbfaf8;
+}
+body section.img-filter .container-filter .card .card-block h4 {
+  color: #d2c2ae;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+body section.img-filter .container-filter .card .card-block p {
+  padding-top: .5rem;
+  font-size: 1.4rem;
+  color: #d1d1d1;
+}
+body section.img-filter .container-filter .card:hover {
+  cursor: pointer;
+}
+body section.img-filter .container-filter .card:hover img {
+  opacity: 0.8;
+}
+body section.img-filter .container-filter .card:hover .card-block {
+  background: #362f2d;
+}
+body section.img-filter .container-filter .card:hover h4 {
+  color: white;
+}
+body section.img-filter .container-filter .card:hover p {
+  color: #b8a58e;
+}
+body section.img-filter button.button-three {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 1rem 4rem;
+  margin-top: 4rem;
+  color: #fff;
+  background: #998675;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body div.bg-header-two {
+  padding-top: 7rem;
+}
+body section.iphone h2 {
+  font-size: 3rem;
+}
+body section.iphone p {
+  font-size: 1.6rem;
+}
+body section.iphone a {
+  border: none;
+  text-decoration: none;
+  padding-bottom: 0;
+  -ms-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+body section.iphone .wrap {
+  padding-left: 4rem;
+}
+body section.iphone img {
+  padding-right: 2rem;
+  margin-top: 1rem;
+  position: relative;
+  bottom: 1rem;
+}
+body div.upper-two-two span {
+  color: #fff;
+  font-family: Montserrat_Light, sans-serif;
+  font-size: 4.8rem;
+}
+body div.upper-two-two p {
+  color: #c7b299;
+  font-family: Montserrat_Light, sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  /* border-bottom: 2px solid #c7b299;
+				padding-bottom: 2rem; */
+  position: relative;
+  padding-bottom: 2rem;
+}
+body div.upper-two-two p::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc(40%);
+  width: 20%;
+  border-bottom: 2px solid #fff;
+}
+body section.footer h2 {
+  font-size: 3rem;
+  font-family: Raleway_Semibold, sans-serif;
+  color: #555;
+}
+body section.footer .card-group {
+  padding-bottom: 7rem;
+}
+body section.footer .card {
+  max-width: 35rem;
+  min-height: 40rem;
+}
+body section.footer .card img {
+  max-height: 21rem;
+  max-width: 37rem;
+}
+body section.footer .card .card-block {
+  padding-top: 3rem;
+}
+body section.footer .card .card-block h4 {
+  font-size: 2rem;
+}
+body section.footer .card .card-block p {
+  font-size: 1.4rem;
+  padding: 1.5rem 2.5rem;
+  text-align: justify;
+}
+body section.footer .card .card-block .card-link {
+  font-size: 1.4rem;
+  color: #c7b299;
+  border: none;
+  padding-bottom: 0;
+}
+body section.footer .card:hover {
+  background: #362f2d;
+}
+body section.footer .card:hover h4,
+body section.footer .card:hover a.card-link {
+  color: #8f7f6f;
+}
+body section.footer .card:hover p {
+  color: #d6d5d5;
+}
+body .block-logo-bg {
+  position: absolute;
+}
+body .block-logo {
+  height: 480px;
+  padding-top: 12%;
+}
+body footer {
+  background: #191919;
+}
+body footer .block {
+  background: #191919;
+  border: none;
+  margin-top: 7rem;
+}
+body footer .block p {
+  color: #555;
+  font-size: 1.4rem;
+  font-family: Montserrat_Light, sans-serif;
+}
+body footer .block p.one {
+  padding-top: 2rem;
+}
+body footer .block a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #d1d1d1;
+  padding-top: 2rem;
+}
+body footer .block a img {
+  padding-left: 1.4rem;
+}
+body footer .block .card-title {
+  font-size: 2.4rem;
+  font-family: Raleway_Semibold, sans-serif;
+}
+body footer .block .text-muted {
+  font-size: 1.2rem;
+  color: #363636;
+  padding: 1rem 0;
+}
+body footer .block .card-text-one {
+  border-bottom: 2px solid #363636;
+  padding-bottom: 1rem;
+}
+body footer .block .card-text-two {
+  border-top: 2px solid #363636;
+}
+body footer .block .card-text {
+  padding: 1rem 0;
+}
+body footer .block a.blue {
+  color: #00bff3;
+}
+body footer .block img.card-img {
+  max-width: 130px;
+  max-height: 80px;
+}
+body footer .card-columns img {
+  margin: .5rem;
+}
+body footer div.footer {
+  background: #111111;
+}
+body footer nav.navbarrr {
+  color: #555555;
+}
+body footer nav.navbarrr a,
+body footer nav.navbarrr p {
+  padding: 4rem 0.4rem;
+  margin: 0;
+  font-size: 1.3rem;
+}
+body footer nav.navbarrr a {
+  color: #555555;
+}
+body footer nav.navbarrr a:hover {
+  color: #c7b299;
+}
+body footer nav.navbarrr a.active {
+  color: #959595;
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  body .text-header .button {
+    margin-bottom: 24rem;
+  }
+  body section {
+    padding-top: 4rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body .text-header .button {
+    margin-bottom: 12rem;
+  }
+  body section {
+    padding-top: 2rem;
+  }
+  body section .icon-cont {
+    padding-top: 4rem;
+  }
+  body section a {
+    padding-bottom: 150px;
+  }
+  body div.upper-two-two .two-two {
+    padding-bottom: 2rem;
+  }
+  body .block-logo {
+    padding-top: 5%;
+  }
+  body footer nav.navbarrr a,
+  body footer nav.navbarrr p {
+    padding: 1.5rem 0.4rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  body .carousel img {
+    max-height: 800px;
+  }
+  body .menu-header {
+    font-size: .8rem;
+    padding-top: 2rem;
+  }
+  body .text-header {
+    padding-top: 10rem;
+  }
+  body .text-header h3 {
+    font-size: 3rem;
+  }
+  body .text-header h1 {
+    font-size: 3.5rem;
+  }
+  body section.iphone .iphone-img {
+    display: none;
+  }
+  body section {
+    padding-top: 0;
+    margin: 0 auto;
+  }
+  body section a {
+    border: none;
+  }
+  body section a:hover {
+    border: none;
+  }
+  body .btn-upper {
+    text-align: center;
+  }
+  body .button-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+  }
+  body div.upper-two-two .two-two {
+    padding-bottom: 2rem;
+  }
+  body section.footer h4 {
+    font-size: 1.4rem;
+  }
+  body .block-logo {
+    padding-top: 5%;
+  }
+  body footer nav.navbarrr a,
+  body footer nav.navbarrr p {
+    padding: 1.5rem 0.4rem;
+    font-size: 0.7rem;
+  }
+}
